@@ -1,0 +1,23 @@
+{
+  "name": "Railway to Telegram",
+  "description": "Integrate Railway Project events with Telegram Chat/Channel using Railway Webhooks!",
+  "keywords": ["opensource", "railwayapp", "webhooks", "telegram"],
+  "repository": "https://github.com/agam778/railway-to-tg",
+  "env": {
+    "TELEGRAM_BOT_TOKEN": {
+      "description": "Telegram Bot's token (Create a telegram bot at @BotFather if you don't have one)",
+      "required": "True"
+    },
+    "TELEGRAM_CHAT_ID": {
+      "description": "The Chat/Channel's id where the bot should post the messages (Start [@MissRose_Bot](https://t.me/MissRose_Bot) in Personal Messages, and run `/id @channelorchat_username` command and copy the ID if you don't have it)",
+      "required": "True"
+    }
+  },
+  "stack": "container",
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}

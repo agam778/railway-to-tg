@@ -2,7 +2,7 @@
 Integrate Railway Project events with Telegram Chat/Channel using Railway Webhooks!
 
 # One Click Self Deploy
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fagam778%2Frailway-to-tg&envs=TELEGRAM_BOT_TOKEN%2CTELEGRAM_CHAT_ID&TELEGRAM_BOT_TOKENDesc=Telegram+Bot%27s+token+%28Create+a+telegram+bot+at+%40BotFather+if+you+don%27t+have+one%29&TELEGRAM_CHAT_IDDesc=The+Chat%2FChannel%27s+id+where+the+bot+should+post+the+messages+%28Start+%5B%40MissRose_Bot%5D%28https%3A%2F%2Ft.me%2FMissRose_Bot%29+in+Personal+Messages%2C+and+run+%60%2Fid+%40channelorchat_username%60+command+and+copy+the+ID+if+you+don%27t+have+it%29&referralCode=agam778)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fagam778%2Frailway-to-tg&envs=TELEGRAM_BOT_TOKEN%2CTELEGRAM_CHAT_ID&TELEGRAM_BOT_TOKENDesc=Telegram+Bot%27s+token+%28Create+a+telegram+bot+at+%40BotFather+if+you+don%27t+have+one%29&TELEGRAM_CHAT_IDDesc=The+Chat%2FChannel%27s+id+where+the+bot+should+post+the+messages+%28Start+%5B%40MissRose_Bot%5D%28https%3A%2F%2Ft.me%2FMissRose_Bot%29+in+Personal+Messages%2C+and+run+%60%2Fid+%40channelorchat_username%60+command+and+copy+the+ID+if+you+don%27t+have+it%29&referralCode=agam778) [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 # Manual Self Deploy
 - Fork (and Star 😜) this repo.
