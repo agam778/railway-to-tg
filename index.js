@@ -66,12 +66,32 @@ router.post("/webhook", (req, res) => {
       `https://railway.app/project/${data.project.id}/`
     );
   } else {
-    console.log(data);
+    console.log("Unknown event: ", data);
   }
   res.sendStatus(200);
 });
+
+app.get("/", (req, res) => {
+  res
+    .status(405)
+    .send(
+      "405 Method Not Allowed. Please see the README.md - https://github.com/agam778/github-to-telegram#readme"
+    );
+});
+
+app.get("/webhook", (req, res) => {
+  res
+    .status(405)
+    .send(
+      "405 Method Not Allowed. Please see the README.md - https://github.com/agam778/github-to-telegram#readme"
+    );
+});
+
 app.use("/", router);
 
-app.listen(PORT, () => {
-  console.log(`App listening on port ${PORT}`);
+app.listen(PORT, (err) => {
+  if (err) {
+    console.log(err);
+  }
+  console.log(`Server listening on port ${PORT}`);
 });
