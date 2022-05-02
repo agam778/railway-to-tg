@@ -17,7 +17,7 @@
   "dependencies": {
     "body-parser": "^1.20.0",
     "dotenv": "^16.0.0",
-    "express": "^4.18.0",
+    "express": "^4.18.1",
     "request": "^2.88.2",
     "telegraf": "^4.7.0"
   }
