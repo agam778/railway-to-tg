@@ -608,9 +608,9 @@ statuses@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
 
-telegraf@^4.8.3:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-4.8.3.tgz#9ae66625dcdb8ffc6a7659a1b6b304ae419b6681"
+telegraf@^4.8.4:
+  version "4.8.4"
+  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-4.8.4.tgz#8843e9e17a60f885bdd5e522d77a4a38ae127158"
   dependencies:
     abort-controller "^3.0.0"
     debug "^4.3.3"
