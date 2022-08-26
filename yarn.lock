@@ -180,6 +180,10 @@ encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/encodeurl/-/encodeurl-1.0.2.tgz#ad3ff4c86ec2d029322f5a02c3a9a606c95b3f59"
 
+es-main@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/es-main/-/es-main-1.2.0.tgz#b85954f1d9d9f542fcb08685ec19515f969bad16"
+
 escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
@@ -608,19 +612,20 @@ statuses@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
 
-telegraf@^4.8.3:
-  version "4.8.3"
-  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-4.8.3.tgz#9ae66625dcdb8ffc6a7659a1b6b304ae419b6681"
+telegraf@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-4.9.0.tgz#30997bf6cbc941bff0bb698b13154647fc918032"
   dependencies:
     abort-controller "^3.0.0"
     debug "^4.3.3"
+    es-main "^1.2.0"
     minimist "^1.2.6"
     module-alias "^2.2.2"
     node-fetch "^2.6.7"
     p-timeout "^4.1.0"
     safe-compare "^1.1.4"
     sandwich-stream "^2.0.2"
-    typegram "^3.9.0"
+    typegram "github:MKRhere/typegram#e2ba9f01f14b96c6dbb1c617e66692a3cc776cf6"
 
 toidentifier@1.0.1:
   version "1.0.1"
@@ -654,9 +659,10 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typegram@^3.9.0:
-  version "3.9.1"
-  resolved "https://registry.yarnpkg.com/typegram/-/typegram-3.9.1.tgz#b4ebfc83579ab01e8e95391e8f10e84abe265cdd"
+"typegram@github:MKRhere/typegram#e2ba9f01f14b96c6dbb1c617e66692a3cc776cf6":
+  version "3.10.0"
+  uid e2ba9f01f14b96c6dbb1c617e66692a3cc776cf6
+  resolved "https://codeload.github.com/MKRhere/typegram/tar.gz/e2ba9f01f14b96c6dbb1c617e66692a3cc776cf6"
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
