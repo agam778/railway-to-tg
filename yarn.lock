@@ -143,7 +143,7 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@^4.3.3:
+debug@^4.3.4:
   version "4.3.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.4.tgz#1319f6579357f2338d3337d2cdd4914bb5dcc865"
   dependencies:
@@ -604,18 +604,18 @@ statuses@2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
 
-telegraf@^4.10.0:
-  version "4.10.0"
-  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-4.10.0.tgz#1e42f8c244b16f114fbc3710308fe5b347ca7ef2"
+telegraf@^4.11.2:
+  version "4.11.2"
+  resolved "https://registry.yarnpkg.com/telegraf/-/telegraf-4.11.2.tgz#1cf4e74418b4fb6eaddd11a74cc50b0971c06c35"
   dependencies:
     abort-controller "^3.0.0"
-    debug "^4.3.3"
+    debug "^4.3.4"
     mri "^1.2.0"
     node-fetch "^2.6.7"
     p-timeout "^4.1.0"
     safe-compare "^1.1.4"
     sandwich-stream "^2.0.2"
-    typegram "^3.11.0"
+    typegram "^4.1.0"
 
 toidentifier@1.0.1:
   version "1.0.1"
@@ -649,9 +649,9 @@ type-is@~1.6.18:
     media-typer "0.3.0"
     mime-types "~2.1.24"
 
-typegram@^3.11.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/typegram/-/typegram-3.11.0.tgz#72e3a8ed0d77864916af465d2c809adf2353ee96"
+typegram@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/typegram/-/typegram-4.1.0.tgz#fb1c8f59d387c5b4966be9aac745aa9fcedc0a2d"
 
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
